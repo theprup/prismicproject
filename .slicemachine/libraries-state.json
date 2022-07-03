@@ -1,0 +1,645 @@
+{
+  "slices": {
+    "components": {
+      "content_relatsionship": {
+        "library": "slices",
+        "id": "content_relatsionship",
+        "name": "ContentRelatsionship",
+        "description": "ContentRelatsionship",
+        "model": {
+          "id": "content_relatsionship",
+          "type": "SharedSlice",
+          "name": "ContentRelatsionship",
+          "description": "ContentRelatsionship",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContentRelatsionship",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "testcontent": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Testcontent",
+                    "select": "document",
+                    "customtypes": [
+                      "page"
+                    ]
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "content_relatsionship",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Incentivize B2C systems",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Aliquip excepteur est non magna voluptate sunt veniam sunt. Commodo reprehenderit cillum proident qui. Ullamco duis est mollit enim dolore eiusmod aute veniam.",
+                  "spans": []
+                }
+              ],
+              "testcontent": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "image_gallery": {
+        "library": "slices",
+        "id": "image_gallery",
+        "name": "ImageGallery",
+        "description": "ImageGallery",
+        "model": {
+          "id": "image_gallery",
+          "type": "SharedSlice",
+          "name": "ImageGallery",
+          "description": "ImageGallery",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ImageGallery",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                }
+              },
+              "items": {
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "New field",
+                    "placeholder": "I write a placeholder here",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "imagefield": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Imagefield",
+                    "constraint": {
+                      "width": 400,
+                      "height": 400
+                    },
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "image_gallery",
+            "items": [
+              {
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident magna et dolor fugiat ut veniam nisi irure in officia cillum aliquip tempor Lorem. Irure magna culpa laborum tempor.",
+                    "spans": []
+                  }
+                ],
+                "imagefield": {
+                  "dimensions": {
+                    "width": 400,
+                    "height": 400
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=400&h=400&fit=crop"
+                }
+              },
+              {
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Pariatur elit ad incididunt labore do. Consectetur culpa irure pariatur aliquip in fugiat aliqua sint excepteur duis aute minim.",
+                    "spans": []
+                  }
+                ],
+                "imagefield": {
+                  "dimensions": {
+                    "width": 400,
+                    "height": 400
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=400&h=400&fit=crop"
+                }
+              },
+              {
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Culpa eu mollit veniam aute tempor deserunt voluptate cupidatat et dolore sint. Lorem cupidatat sint excepteur nisi culpa laboris excepteur tempor esse.",
+                    "spans": []
+                  }
+                ],
+                "imagefield": {
+                  "dimensions": {
+                    "width": 400,
+                    "height": 400
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=400&h=400&fit=crop"
+                }
+              },
+              {
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Id officia esse aliquip nulla. Ad aliquip sit elit laborum mollit mollit ipsum cillum nostrud cupidatat eiusmod consectetur est. Consectetur consequat proident eu ad pariatur voluptate excepteur incididunt sunt aliquip tempor consectetur eu.",
+                    "spans": []
+                  }
+                ],
+                "imagefield": {
+                  "dimensions": {
+                    "width": 400,
+                    "height": 400
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=400&h=400&fit=crop"
+                }
+              },
+              {
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Officia Lorem sunt aliquip nulla dolore et. Officia minim eu quis et anim exercitation.",
+                    "spans": []
+                  }
+                ],
+                "imagefield": {
+                  "dimensions": {
+                    "width": 400,
+                    "height": 400
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=400&h=400&fit=crop"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Deliver intuitive partnerships",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "image_test": {
+        "library": "slices",
+        "id": "image_test",
+        "name": "ImageTest",
+        "description": "ImageTest",
+        "model": {
+          "id": "image_test",
+          "type": "SharedSlice",
+          "name": "ImageTest",
+          "description": "ImageTest",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ImageTest",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "image_test",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Mesh e-business markets",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Et dolore amet ipsum nostrud non minim. Consequat mollit ea laborum aliqua aute ad dolore labore et eiusmod adipisicing officia elit. Labore dolor reprehenderit cillum minim amet est voluptate tempor nostrud aute aliquip elit culpa.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "image_text": {
+        "library": "slices",
+        "id": "image_text",
+        "name": "ImageText",
+        "description": "ImageText",
+        "model": {
+          "id": "image_text",
+          "type": "SharedSlice",
+          "name": "ImageText",
+          "description": "ImageText",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ImageText",
+              "primary": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 400,
+                      "height": 400
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "image_text",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 400,
+                  "height": 400
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=400&fit=crop"
+              },
+              "text": [
+                {
+                  "type": "heading1",
+                  "text": "Architect world-class paradigms",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Lorem do pariatur quis adipisicing deserunt ullamco cupidatat velit voluptate occaecat ipsum anim tempor ipsum. Proident mollit enim mollit ullamco velit nostrud incididunt do anim labore et officia et est.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/ImageText/default/preview.png",
+            "width": 800,
+            "height": 530
+          }
+        }
+      },
+      "links_slices": {
+        "library": "slices",
+        "id": "links_slices",
+        "name": "LinksSlices",
+        "description": "LinksSlices",
+        "model": {
+          "id": "links_slices",
+          "type": "SharedSlice",
+          "name": "LinksSlices",
+          "description": "LinksSlices",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LinksSlices",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "richtextlinks": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Richtextlinks",
+                    "placeholder": "This is a placeholder for the RT",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,preformatted,heading1,embed,image,list-item,o-list-item,rtl"
+                  }
+                },
+                "test": {
+                  "type": "Select",
+                  "config": {
+                    "label": "Test",
+                    "placeholder": "test",
+                    "options": [
+                      "1",
+                      "2"
+                    ],
+                    "default_value": "1"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "links_slices",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Harness cross-media web-readiness",
+                  "spans": []
+                }
+              ],
+              "richtextlinks": [
+                {
+                  "type": "heading2",
+                  "text": "Unleash proactive supply-chains",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Velit irure minim incididunt mollit minim minim est reprehenderit mollit pariatur.",
+                  "spans": []
+                },
+                {
+                  "type": "heading2",
+                  "text": "Recontextualize dynamic technologies",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Eu exercitation Lorem ex proident aute aliqua anim nostrud et velit pariatur culpa ad dolor. Nulla nisi qui ea velit magna tempor consectetur cupidatat. Deserunt ea sint mollit id voluptate ea ad quis voluptate consequat ex fugiat enim amet cillum.",
+                  "spans": []
+                },
+                {
+                  "type": "heading2",
+                  "text": "Seize enterprise channels",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Proident deserunt est reprehenderit officia cupidatat eiusmod incididunt aliquip esse. Occaecat qui enim aliqua anim irure.",
+                  "spans": []
+                },
+                {
+                  "type": "heading2",
+                  "text": "Matrix seamless e-markets",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Velit laborum adipisicing aliqua id officia do labore eu. Proident amet commodo ullamco ex velit excepteur consequat deserunt quis adipisicing dolore anim. Enim qui in amet non quis anim minim sunt occaecat duis anim.",
+                  "spans": []
+                },
+                {
+                  "type": "heading2",
+                  "text": "Utilize rich channels",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Sit incididunt dolor excepteur ipsum exercitation dolor laboris duis adipisicing adipisicing.",
+                  "spans": []
+                }
+              ],
+              "test": "1"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "text_slice": {
+        "library": "slices",
+        "id": "text_slice",
+        "name": "TextSlice",
+        "description": "TextSlice",
+        "model": {
+          "id": "text_slice",
+          "type": "SharedSlice",
+          "name": "TextSlice",
+          "description": "TextSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextSlice",
+              "primary": {
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "test": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Test",
+                    "select": "document"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "text_slice",
+            "items": [],
+            "primary": {
+              "text": [
+                {
+                  "type": "heading1",
+                  "text": "Exploit dynamic experiences",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Pariatur incididunt cupidatat aute mollit do do reprehenderit magna.",
+                  "spans": []
+                },
+                {
+                  "type": "heading1",
+                  "text": "Transition turn-key e-business",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Aute enim nostrud ea labore ad ea excepteur qui veniam eu enim ut.",
+                  "spans": []
+                },
+                {
+                  "type": "heading1",
+                  "text": "Enhance e-business infrastructures",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Veniam ad magna velit ipsum velit velit quis laborum ex Lorem. Id culpa aute dolore incididunt nisi dolor cillum et qui anim qui reprehenderit sint qui.",
+                  "spans": []
+                },
+                {
+                  "type": "heading1",
+                  "text": "Seize front-end content",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Occaecat ullamco sint occaecat voluptate proident irure et culpa. Eiusmod qui do magna irure aute id dolore nulla reprehenderit aliqua in.",
+                  "spans": []
+                }
+              ],
+              "test": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

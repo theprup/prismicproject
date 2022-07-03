@@ -1,0 +1,76 @@
+{
+  "_cts": {
+    "page": {},
+    "menu": {
+      "links": {}
+    },
+    "my-new-test": {
+      "test": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "slices": {
+    "TextSlice": {
+      "default": {
+        "primary": {
+          "text": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 4
+            }
+          }
+        }
+      }
+    },
+    "ImageText": {
+      "default": {
+        "primary": {
+          "text": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "LinksSlices": {
+      "default": {
+        "primary": {
+          "richtextlinks": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 5
+            }
+          },
+          "test": {
+            "content": "1"
+          }
+        }
+      }
+    },
+    "ImageGallery": {
+      "default": {
+        "primary": {},
+        "items": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ImageTest": {},
+    "ContentRelatsionship": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}

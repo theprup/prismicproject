@@ -1,0 +1,14 @@
+{
+  "id": "f15d27ef-6908-45a3-b5f3-53f9d6a67dc1",
+  "uid": "voluptatibus-iste-doloribus",
+  "type": "my-new-test",
+  "data": {
+    "test": [
+      {
+        "type": "paragraph",
+        "text": "Velit est magna ullamco sit ex dolore ut consequat nulla Lorem ullamco. Sit est dolore pariatur.",
+        "spans": []
+      }
+    ]
+  }
+}
