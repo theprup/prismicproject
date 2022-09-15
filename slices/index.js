@@ -5,6 +5,8 @@ import ImageGallery from './ImageGallery';
 import ImageTest from './ImageTest';
 import ImageText from './ImageText';
 import LinksSlices from './LinksSlices';
+import NewSlice from './NewSlice';
+import TestSlice from './TestSlice';
 import TextSlice from './TextSlice';
 
 export {
@@ -13,6 +15,8 @@ export {
 	ImageTest,
 	ImageText,
 	LinksSlices,
+	NewSlice,
+	TestSlice,
 	TextSlice,
 };
 
@@ -22,5 +26,7 @@ export const components = {
 	image_test: ImageTest,
 	image_text: ImageText,
 	links_slices: LinksSlices,
+	new_slice: NewSlice,
+	test_slice: TestSlice,
 	text_slice: TextSlice,
 };

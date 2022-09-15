@@ -6,12 +6,12 @@ const TextSlice = ({ slice }) => (
   <section>
       <PrismicRichText field={slice.primary.text} />
       
-      <PrismicLink  document={slice.primary.test}>My Link</PrismicLink>
+      <PrismicLink  document={slice.primary.test}>TEST</PrismicLink>
     <style jsx>{`
         section {
           max-width: 1000px;
           margin: 4em auto;
-          text-align: center;
+          text-align: ;
           
         }
     `}</style>

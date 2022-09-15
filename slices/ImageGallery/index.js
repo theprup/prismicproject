@@ -1,6 +1,7 @@
 import React from 'react'
 import { PrismicRichText } from '@prismicio/react'
 
+
 const ImageGallery = ({ slice }) => (
   <section>
     <span className="title">

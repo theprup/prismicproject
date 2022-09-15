@@ -16,7 +16,7 @@ export async function getStaticProps({ previewData }) {
   const client = createClient({ previewData })
 
   const menu = await client.getSingle("menu");
-  const page = await client.getByUID('page', 'home')
+  const page = await client.getByUID("page", "home")
 
   return {
     props: { page, menu}, // Will be passed to the page component as props

@@ -1,0 +1,34 @@
+{
+  "id": "dd841f75-3d00-42c4-9515-036ac2ba36f8",
+  "uid": "officiis-vel-voluptate",
+  "type": "blog-home",
+  "data": {
+    "heading": [
+      {
+        "type": "paragraph",
+        "text": "Lorem officia deserunt proident irure elit dolor culpa voluptate.",
+        "spans": []
+      }
+    ],
+    "articles": [
+      {
+        "blogArticle": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "blogArticle": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "blogArticle": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      }
+    ]
+  }
+}

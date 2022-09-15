@@ -11,6 +11,13 @@
           "blocks": 1
         }
       }
+    },
+    "blogpage": {},
+    "blog-home-page": {
+      "articles": {}
+    },
+    "blog-home": {
+      "articles": {}
     }
   },
   "slices": {
@@ -71,6 +78,25 @@
       "default": {
         "primary": {}
       }
-    }
+    },
+    "TestSlice": {
+      "default": {
+        "primary": {
+          "testimage": {
+            "content": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+          },
+          "newRT": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "imageadd": {
+            "content": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890"
+          }
+        }
+      }
+    },
+    "NewSlice": {}
   }
 }

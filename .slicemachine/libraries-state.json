@@ -345,8 +345,8 @@
                   "config": {
                     "label": "Image",
                     "constraint": {
-                      "width": 400,
-                      "height": 400
+                      "width": 1000,
+                      "height": 720
                     },
                     "thumbnails": []
                   }
@@ -375,22 +375,22 @@
             "primary": {
               "image": {
                 "dimensions": {
-                  "width": 400,
-                  "height": 400
+                  "width": 1000,
+                  "height": 720
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=400&fit=crop"
+                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=1000&h=720&fit=crop"
               },
               "text": [
                 {
                   "type": "heading1",
-                  "text": "Architect world-class paradigms",
+                  "text": "Redefine killer deliverables",
                   "spans": []
                 },
                 {
                   "type": "paragraph",
-                  "text": "Lorem do pariatur quis adipisicing deserunt ullamco cupidatat velit voluptate occaecat ipsum anim tempor ipsum. Proident mollit enim mollit ullamco velit nostrud incididunt do anim labore et officia et est.",
+                  "text": "Dolore duis ex culpa qui ullamco elit reprehenderit tempor consequat magna commodo eu eiusmod. Anim deserunt deserunt pariatur laboris fugiat non ea fugiat esse. Irure nostrud ex sunt Lorem fugiat culpa nostrud mollit commodo ullamco duis est dolore ipsum fugiat.",
                   "spans": []
                 }
               ]
@@ -405,7 +405,7 @@
           "default": {
             "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/ImageText/default/preview.png",
             "width": 800,
-            "height": 530
+            "height": 869
           }
         }
       },
@@ -529,6 +529,235 @@
                 }
               ],
               "test": "1"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "new_slice": {
+        "library": "slices",
+        "id": "new_slice",
+        "name": "NewSlice",
+        "description": "NewSlice",
+        "model": {
+          "id": "new_slice",
+          "type": "SharedSlice",
+          "name": "NewSlice",
+          "description": "NewSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "NewSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "testingtheimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Testingtheimage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "new_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Leverage revolutionary applications",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Id magna fugiat qui aute ex sint nisi velit labore sit id veniam mollit mollit. Ipsum minim ut eu nulla. Magna ea dolore tempor occaecat Lorem in sunt ipsum ullamco nisi officia.",
+                  "spans": []
+                }
+              ],
+              "testingtheimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/NewSlice/default/preview.png",
+            "width": 800,
+            "height": 106
+          }
+        }
+      },
+      "test_slice": {
+        "library": "slices",
+        "id": "test_slice",
+        "name": "TestSlice",
+        "description": "TestSlice",
+        "model": {
+          "id": "test_slice",
+          "type": "SharedSlice",
+          "name": "TestSlice",
+          "description": "TestSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TestSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "newRichtext": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "New Richtext",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "testimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Testimage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "newRT": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "New RT",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "imageadd": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Imageadd",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "test_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Incubate vertical partnerships",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Veniam et aute et non nulla enim ut excepteur elit velit cupidatat ut. Qui sit excepteur ut occaecat in anim culpa eiusmod aliquip est non.",
+                  "spans": []
+                }
+              ],
+              "newRichtext": [
+                {
+                  "type": "paragraph",
+                  "text": "Et excepteur tempor laboris consectetur magna est consequat pariatur. Laboris in culpa nisi qui aliquip irure tempor tempor Lorem officia eu cupidatat culpa laborum.",
+                  "spans": []
+                }
+              ],
+              "testimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=900&h=500&fit=crop"
+              },
+              "newRT": [
+                {
+                  "type": "paragraph",
+                  "text": "Aliquip sunt elit laboris culpa commodo reprehenderit consectetur do cupidatat irure reprehenderit. Consectetur aliquip qui incididunt occaecat commodo cupidatat eu ullamco fugiat ad ex et.",
+                  "spans": []
+                }
+              ],
+              "imageadd": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?w=900&h=500&fit=crop"
+              }
             }
           }
         },

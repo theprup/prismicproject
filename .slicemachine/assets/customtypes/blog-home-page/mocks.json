@@ -1,0 +1,40 @@
+{
+  "id": "06365f54-2d00-4508-b8c2-aab1f8a74277",
+  "uid": "incidunt-esse-sint",
+  "type": "blog-home-page",
+  "data": {
+    "heading": [
+      {
+        "type": "paragraph",
+        "text": "Et dolore deserunt ex minim tempor. Eiusmod qui officia magna eiusmod tempor ut incididunt sint mollit ullamco excepteur. Ut magna do do esse exercitation.",
+        "spans": []
+      }
+    ],
+    "articles": [
+      {
+        "blogArticle": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "blogArticle": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "blogArticle": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "blogArticle": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      }
+    ]
+  }
+}
