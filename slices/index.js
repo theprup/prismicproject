@@ -7,6 +7,7 @@ import ImageText from './ImageText';
 import LinksSlices from './LinksSlices';
 import NewSlice from './NewSlice';
 import TestSlice from './TestSlice';
+import TestSlice3 from './TestSlice3';
 import TextSlice from './TextSlice';
 
 export {
@@ -17,6 +18,7 @@ export {
 	LinksSlices,
 	NewSlice,
 	TestSlice,
+	TestSlice3,
 	TextSlice,
 };
 
@@ -28,5 +30,6 @@ export const components = {
 	links_slices: LinksSlices,
 	new_slice: NewSlice,
 	test_slice: TestSlice,
+	test_slice3: TestSlice3,
 	text_slice: TextSlice,
 };

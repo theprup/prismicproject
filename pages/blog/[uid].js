@@ -6,6 +6,7 @@ import * as prismicH from "@prismicio/helpers";
 import { createClient, linkResolver } from "../../prismicio";
 import { components } from "../../slices";
 import { Layout } from "../../components/Layout";
+<script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=proops-blog"></script>
 
 function BlogPage({ menu, slices, title }) {
     return (

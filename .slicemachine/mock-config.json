@@ -18,7 +18,8 @@
     },
     "blog-home": {
       "articles": {}
-    }
+    },
+    "testfordani": {}
   },
   "slices": {
     "TextSlice": {
@@ -39,6 +40,12 @@
           "text": {
             "config": {
               "patternType": "STORY",
+              "blocks": 1
+            }
+          },
+          "test": {
+            "config": {
+              "patternType": "HEADING",
               "blocks": 1
             }
           }
@@ -76,7 +83,11 @@
     "ImageTest": {},
     "ContentRelatsionship": {
       "default": {
-        "primary": {}
+        "primary": {
+          "number": {
+            "content": 1995
+          }
+        }
       }
     },
     "TestSlice": {
@@ -97,6 +108,21 @@
         }
       }
     },
-    "NewSlice": {}
+    "NewSlice": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 4
+            }
+          },
+          "testingtheimage": {
+            "content": "https://images.unsplash.com/photo-1474176857210-7287d38d27c6"
+          }
+        }
+      }
+    },
+    "TestSlice3": {}
   }
 }

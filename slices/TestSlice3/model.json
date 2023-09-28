@@ -1,15 +1,15 @@
 {
-  "id": "content_relatsionship",
+  "id": "test_slice3",
   "type": "SharedSlice",
-  "name": "ContentRelatsionship",
-  "description": "ContentRelatsionship",
+  "name": "TestSlice3",
+  "description": "TestSlice3",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "ContentRelatsionship",
+      "description": "TestSlice3",
       "primary": {
         "title": {
           "type": "StructuredText",
@@ -25,23 +25,6 @@
             "single": "paragraph",
             "label": "Description",
             "placeholder": "A nice description of your feature"
-          }
-        },
-        "testcontent": {
-          "type": "Link",
-          "config": {
-            "label": "Testcontent",
-            "select": "document",
-            "customtypes": [
-              "page"
-            ]
-          }
-        },
-        "number": {
-          "type": "Number",
-          "config": {
-            "label": "Number",
-            "placeholder": "add a number"
           }
         }
       },

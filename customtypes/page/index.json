@@ -31,6 +31,9 @@
             },
             "content_relatsionship": {
               "type": "SharedSlice"
+            },
+            "image_test": {
+              "type": "SharedSlice"
             }
           }
         }

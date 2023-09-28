@@ -1,0 +1,42 @@
+{
+  "id": "testfordani",
+  "label": "testForDani",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "testgroup": {
+        "type": "Group",
+        "config": {
+          "label": "Testgroup",
+          "fields": {
+            "testkeytext": {
+              "type": "Text",
+              "config": {
+                "label": "Testkeytext",
+                "placeholder": ""
+              }
+            },
+            "testimage": {
+              "type": "Image",
+              "config": {
+                "label": "Testimage",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "richtexttest": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Richtexttest",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

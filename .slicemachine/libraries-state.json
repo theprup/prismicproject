@@ -44,6 +44,13 @@
                       "page"
                     ]
                   }
+                },
+                "number": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Number",
+                    "placeholder": "add a number"
+                  }
                 }
               },
               "items": {},
@@ -61,21 +68,22 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Incentivize B2C systems",
+                  "text": "Synergize value-added niches",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Aliquip excepteur est non magna voluptate sunt veniam sunt. Commodo reprehenderit cillum proident qui. Ullamco duis est mollit enim dolore eiusmod aute veniam.",
+                  "text": "Esse qui nulla irure aute.",
                   "spans": []
                 }
               ],
               "testcontent": {
                 "link_type": "Web",
-                "url": "https://slicemachine.dev"
-              }
+                "url": "http://twitter.com"
+              },
+              "number": 1995
             }
           }
         },
@@ -285,6 +293,14 @@
                     "label": "Description",
                     "placeholder": "A nice description of your feature"
                   }
+                },
+                "newimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Newimage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
                 }
               },
               "items": {},
@@ -302,17 +318,26 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Mesh e-business markets",
+                  "text": "Seize strategic infomediaries",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Et dolore amet ipsum nostrud non minim. Consequat mollit ea laborum aliqua aute ad dolore labore et eiusmod adipisicing officia elit. Labore dolor reprehenderit cillum minim amet est voluptate tempor nostrud aute aliquip elit culpa.",
+                  "text": "Laboris culpa ut consequat ad nulla excepteur nostrud laborum nulla ut pariatur commodo.",
                   "spans": []
                 }
-              ]
+              ],
+              "newimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+              }
             }
           }
         },
@@ -320,7 +345,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/ImageTest/default/preview.png",
+            "width": 800,
+            "height": 87
+          }
+        }
       },
       "image_text": {
         "library": "slices",
@@ -345,8 +376,8 @@
                   "config": {
                     "label": "Image",
                     "constraint": {
-                      "width": 1000,
-                      "height": 720
+                      "width": 200,
+                      "height": 200
                     },
                     "thumbnails": []
                   }
@@ -358,6 +389,15 @@
                     "placeholder": "",
                     "allowTargetBlank": true,
                     "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "test": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Test",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
                   }
                 }
               },
@@ -375,22 +415,29 @@
             "primary": {
               "image": {
                 "dimensions": {
-                  "width": 1000,
-                  "height": 720
+                  "width": 200,
+                  "height": 200
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=1000&h=720&fit=crop"
+                "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=200&h=200&fit=crop"
               },
               "text": [
                 {
                   "type": "heading1",
-                  "text": "Redefine killer deliverables",
+                  "text": "Brand next-generation e-commerce",
                   "spans": []
                 },
                 {
                   "type": "paragraph",
-                  "text": "Dolore duis ex culpa qui ullamco elit reprehenderit tempor consequat magna commodo eu eiusmod. Anim deserunt deserunt pariatur laboris fugiat non ea fugiat esse. Irure nostrud ex sunt Lorem fugiat culpa nostrud mollit commodo ullamco duis est dolore ipsum fugiat.",
+                  "text": "Sint anim dolor ipsum.",
+                  "spans": []
+                }
+              ],
+              "test": [
+                {
+                  "type": "heading1",
+                  "text": "Strategize seamless experiences",
                   "spans": []
                 }
               ]
@@ -405,7 +452,7 @@
           "default": {
             "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/ImageText/default/preview.png",
             "width": 800,
-            "height": 869
+            "height": 292
           }
         }
       },
@@ -567,9 +614,10 @@
                 "description": {
                   "type": "StructuredText",
                   "config": {
-                    "single": "paragraph",
                     "label": "Description",
-                    "placeholder": "A nice description of your feature"
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
                   }
                 },
                 "testingtheimage": {
@@ -596,14 +644,49 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Leverage revolutionary applications",
+                  "text": "Reintermediate front-end systems",
                   "spans": []
                 }
               ],
               "description": [
                 {
+                  "type": "heading1",
+                  "text": "Syndicate revolutionary interfaces",
+                  "spans": []
+                },
+                {
                   "type": "paragraph",
-                  "text": "Id magna fugiat qui aute ex sint nisi velit labore sit id veniam mollit mollit. Ipsum minim ut eu nulla. Magna ea dolore tempor occaecat Lorem in sunt ipsum ullamco nisi officia.",
+                  "text": "Occaecat proident officia mollit eu minim minim aliqua minim velit pariatur labore amet. Ipsum id duis voluptate.",
+                  "spans": []
+                },
+                {
+                  "type": "heading1",
+                  "text": "Redefine enterprise e-markets",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Ad occaecat eu irure consectetur sunt commodo consectetur pariatur eu. Consequat sint minim Lorem occaecat voluptate dolor proident et aute exercitation laborum in anim eu fugiat.",
+                  "spans": []
+                },
+                {
+                  "type": "heading1",
+                  "text": "Brand bleeding-edge communities",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Quis sint aute commodo proident minim proident pariatur reprehenderit incididunt elit. Amet et consectetur in cillum ad magna consectetur.",
+                  "spans": []
+                },
+                {
+                  "type": "heading1",
+                  "text": "Maximize cross-platform metrics",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Eiusmod adipisicing do aliqua ad culpa nisi. Nisi excepteur pariatur minim aliquip. Sit ipsum incididunt qui.",
                   "spans": []
                 }
               ],
@@ -614,7 +697,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1474176857210-7287d38d27c6?w=900&h=500&fit=crop"
               }
             }
           }
@@ -627,7 +710,7 @@
           "default": {
             "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/NewSlice/default/preview.png",
             "width": 800,
-            "height": 106
+            "height": 475
           }
         }
       },
@@ -715,7 +798,7 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Incubate vertical partnerships",
+                  "text": "Title of the slice",
                   "spans": []
                 }
               ],
@@ -765,7 +848,89 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/TestSlice/default/preview.png",
+            "width": 800,
+            "height": 1254
+          }
+        }
+      },
+      "test_slice3": {
+        "library": "slices",
+        "id": "test_slice3",
+        "name": "TestSlice3",
+        "description": "TestSlice3",
+        "model": {
+          "id": "test_slice3",
+          "type": "SharedSlice",
+          "name": "TestSlice3",
+          "description": "TestSlice3",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TestSlice3",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "test_slice3",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Productize vertical vortals",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Cillum nostrud Lorem sit consectetur ullamco eiusmod. In ex cillum labore exercitation aute id laboris consectetur labore culpa do quis dolore excepteur.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/TestSlice3/default/preview.png",
+            "width": 800,
+            "height": 87
+          }
+        }
       },
       "text_slice": {
         "library": "slices",
@@ -867,7 +1032,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/guyproops/Desktop/nextjs-blog/.slicemachine/assets/slices/TextSlice/default/preview.png",
+            "width": 800,
+            "height": 404
+          }
+        }
       }
     }
   }

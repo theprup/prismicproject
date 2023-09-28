@@ -5,5 +5,5 @@ export default {
 }
 
 
-export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"image_test","items":[],"primary":{"title":[{"type":"heading1","text":"Mesh e-business markets","spans":[]}],"description":[{"type":"paragraph","text":"Et dolore amet ipsum nostrud non minim. Consequat mollit ea laborum aliqua aute ad dolore labore et eiusmod adipisicing officia elit. Labore dolor reprehenderit cillum minim amet est voluptate tempor nostrud aute aliquip elit culpa.","spans":[]}]},"id":"_Default"}} />
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"image_test","items":[],"primary":{"title":[{"type":"heading1","text":"Seize strategic infomediaries","spans":[]}],"description":[{"type":"paragraph","text":"Laboris culpa ut consequat ad nulla excepteur nostrud laborum nulla ut pariatur commodo.","spans":[]}],"newimage":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"}},"id":"_Default"}} />
 _Default.storyName = 'Default'

@@ -1,0 +1,104 @@
+{
+  "id": "f6646738-72bf-40a4-8665-a1515f98b798",
+  "uid": "beatae-quo-debitis",
+  "type": "testfordani",
+  "data": {
+    "testgroup": [
+      {
+        "testkeytext": "grow sexy applications",
+        "testimage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+        },
+        "richtexttest": [
+          {
+            "type": "paragraph",
+            "text": "Commodo amet excepteur sit. Ad exercitation duis dolore aute non ad nostrud ullamco in ut. Dolore excepteur Lorem exercitation minim ex incididunt non ea mollit nulla reprehenderit ut.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "testkeytext": "mesh granular vortals",
+        "testimage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+        },
+        "richtexttest": [
+          {
+            "type": "paragraph",
+            "text": "Commodo sunt quis sint dolor Lorem. Consequat irure est sint.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "testkeytext": "reintermediate rich paradigms",
+        "testimage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop"
+        },
+        "richtexttest": [
+          {
+            "type": "paragraph",
+            "text": "Exercitation duis mollit dolore eu ad magna eiusmod exercitation consectetur proident occaecat proident. Do reprehenderit tempor qui do consectetur laborum eiusmod irure. Sunt id dolor est voluptate anim fugiat sit non consequat reprehenderit aliqua voluptate.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "testkeytext": "repurpose bleeding-edge vortals",
+        "testimage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+        },
+        "richtexttest": [
+          {
+            "type": "paragraph",
+            "text": "Quis occaecat ullamco do incididunt sit qui cupidatat sunt commodo qui est irure.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "testkeytext": "unleash mission-critical applications",
+        "testimage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+        },
+        "richtexttest": [
+          {
+            "type": "paragraph",
+            "text": "Consectetur nostrud aute duis ex aliqua magna proident do amet ex do adipisicing ex anim.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -2,28 +2,23 @@
   {
     "variation": "default",
     "name": "Default",
-    "slice_type": "content_relatsionship",
+    "slice_type": "test_slice3",
     "items": [],
     "primary": {
       "title": [
         {
           "type": "heading1",
-          "text": "Synergize value-added niches",
+          "text": "Productize vertical vortals",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Esse qui nulla irure aute.",
+          "text": "Cillum nostrud Lorem sit consectetur ullamco eiusmod. In ex cillum labore exercitation aute id laboris consectetur labore culpa do quis dolore excepteur.",
           "spans": []
         }
-      ],
-      "testcontent": {
-        "link_type": "Web",
-        "url": "http://twitter.com"
-      },
-      "number": 1995
+      ]
     }
   }
 ]
